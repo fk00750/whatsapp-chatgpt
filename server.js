@@ -8,7 +8,9 @@ dotenv.config({ path: ".env" });
 // Set the port number to listen on
 const PORT = process.env.PORT;
 
-app.set("view engine", "ejs");
+// app.set("view engine", "ejs");
+
+const start = async () => {}
 
 // Start listening on the specified port
 app.listen(PORT, () => {
